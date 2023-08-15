@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@400;500;600;700&display=swap');
+
+:root {
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+
+  --roxo-700: #453D66;
+  --roxo-400: #A882DD;
+  --roxo-300: #D6CAE9;
+  --roxo-200: #e8def8;
+  --neutro: #EFEFF0;
+
+  color: var(--roxo-700);
+  background-color: var(--neutro);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+header {
+  max-width: 70rem;
+  margin: 8rem;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--roxo-300);
+  font-size: 5rem;
+  font-weight: 500;
+  margin-bottom: 2.125rem;
+}
+
+h2 {
+  font-size: 1.875rem;
+  font-weight: 400;
+}
+
+b {
+  color: var(--roxo-700);
+}
+
+.sobre {
+  padding: 8rem;
+  background: url("asset/background.svg");
+  background-size: cover;
+}
+
+p {
+  max-width: 80rem;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.habilidades,
+.motivacao {
+  margin: 3rem 0 5rem 8rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  color: var(--roxo-400);
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 500px) {
+  html {
+      font-size: 50%;
+  }
+
+  header h1 {
+    font-size: 30px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  header,
+  .habilidades,
+  .motivacao {
+    margin: 5rem 3rem 5rem 3rem;
+  }
+  
+  .sobre {
+    padding: 5rem 5rem 12rem 5rem;
+  }
+}

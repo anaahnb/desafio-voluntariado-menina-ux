@@ -1,0 +1,35 @@
+.badge span {
+  background: var(--roxo-200);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  font-weight: 500;
+
+  display: inline-flex;
+  margin: 0.45rem 0.45rem  0.45rem 0;
+}
+
+.badgeContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.icon {
+  color: var(--roxo-400);
+}
+
+.badgeContent:hover {
+  background: var(--roxo-300);
+}
+
+.badgeList h5 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+.badgeList {
+  max-width: 30rem;
+  margin-top: 2rem;
+}
