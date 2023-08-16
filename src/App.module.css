@@ -21,9 +21,13 @@
   text-align: left;
 }
 
+html {
+  margin: 8rem 0;
+}
+
 header {
   max-width: 70rem;
-  margin: 8rem;
+  margin: 0 8rem 8rem 8rem;
 }
 
 h1 {
@@ -49,6 +53,10 @@ b {
   background-size: cover;
 }
 
+.sobre img {
+  margin: 1rem 0;
+}
+
 p {
   max-width: 80rem;
   font-size: 1.25rem;
@@ -57,7 +65,7 @@ p {
 
 .habilidades,
 .motivacao {
-  margin: 3rem 0 5rem 8rem;
+  margin: 3rem 0 0 8rem;
 }
 
 h3 {
@@ -75,13 +83,21 @@ h3 {
     font-size: 30px;
   }
 
+  .sobre img {
+    height: 15%;
+    width: 15%;
+  }
+
 }
 
 @media (max-width: 768px) {
+  html {
+    margin: 5rem 0 0 0;
+  }
   header,
   .habilidades,
   .motivacao {
-    margin: 5rem 3rem 5rem 3rem;
+    margin: 0 3rem 5rem 3rem;
   }
   
   .sobre {
