@@ -37,7 +37,7 @@ function App() {
                         amor pela TI ganhou vida. </b> Desde então, tenho aproveitado oportunidades de formação complementar, o que me tem proporcionado a chance de trabalhar em projetos 
                         colaborativos com equipes interdisciplinares e, por consequência, me conectar com profissionais experientes do mercado de tecnologia.
                     </p>
-                    <img src="./src/assets/icons8-gato-64.png" alt="Gato" />
+                    <img src="./src/assets/icons8-gato-64.svg" alt="Gato" />
                     <p>
                         Além disso, tive a grata oportunidade de aplicar meus conhecimentos e paixão pela programação em contextos profissionais. Através de experiências anteriores, fui uma
                         parte ativa no desenvolvimento de sistemas web, contribuindo em projetos que exigiram habilidades técnicas e, igualmente importante, a habilidade de trabalhar de forma
